@@ -2,6 +2,7 @@
   "name": "tesla-clone",
   "version": "0.1.0",
   "private": true,
+   "default": "index.html",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build index.html --dist-dir ./dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -44,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "main": "index.js",
+  "default": "index.js",
   "repository": "https://github.com/awirshj/tesla-react.js.git",
   "author": "awirshj <awirshjprogramming@gmail.com>",
   "license": "MIT"
