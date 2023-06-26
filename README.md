@@ -1,7 +1,7 @@
 # Tesla WebSite with React.js
 
 ## deploy sample project on Netlify:
-
+https://tesla-spa-react-awirshj.netlify.app/
 
 
 ## Learn More
