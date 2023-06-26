@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build index.html --dist-dir ./dist",
+    "build": "react-scripts build index.html --build-dir ./build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
